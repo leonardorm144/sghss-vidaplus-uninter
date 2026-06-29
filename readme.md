@@ -42,12 +42,23 @@ O sistema tem como objetivo centralizar processos administrativos, clínicos e h
 - Profissional
 - Paciente
 
-## Configuração do banco de dados
+## Banco de dados
+
+A estrutura do banco está disponível na pasta `database`.
+
+Arquivos:
+
+- `estrutura.sql`: contém a estrutura das tabelas do sistema.
+
+Por segurança, dados reais, credenciais de banco e informações sensíveis não foram incluídos no repositório.
+
+Para configurar o projeto localmente:
 
 1. Criar um banco MySQL.
-2. Importar o arquivo SQL do projeto, se disponível.
-3. Copiar o arquivo `config/db_example.php` para `config/db.php`.
-4. Preencher os dados de conexão no arquivo `config/db.php`.
+2. Importar `database/estrutura.sql`.
+3. Copiar `config/db.example.php` para `config/db.php`.
+4. Preencher os dados de conexão do banco.
+
 
 ## Sistema publicado
 
