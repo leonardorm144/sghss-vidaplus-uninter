@@ -56,7 +56,7 @@ Para configurar o projeto localmente:
 
 1. Criar um banco MySQL.
 2. Importar `database/estrutura.sql`.
-3. Copiar `config/db.example.php` para `config/db.php`.
+3. Copiar `config/db_example.php` para `config/db.php`.
 4. Preencher os dados de conexão do banco.
 
 
