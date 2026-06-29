@@ -46,16 +46,16 @@ O sistema tem como objetivo centralizar processos administrativos, clínicos e h
 
 1. Criar um banco MySQL.
 2. Importar o arquivo SQL do projeto, se disponível.
-3. Copiar o arquivo `config/db.php` para `config/db.php`.
+3. Copiar o arquivo `config/db_example.php` para `config/db.php`.
 4. Preencher os dados de conexão no arquivo `config/db.php`.
 
 ## Sistema publicado
 
-https://sghssuninter.free.nf/login.php
+https://sghssuninter.free.nf/login
 
 ## Repositório
 
-[INSERIR LINK DO REPOSITÓRIO GITHUB]
+https://github.com/leonardorm144/sghss-vidaplus-uninter
 
 ## Observação
 
