@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+# Redireciona acessos GET com .php para URL sem .php
+# Exemplo: /login.php -> /login
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteCond %{REQUEST_METHOD} GET
+RewriteRule ^(.+?)\.php$ /$1 [R=301,L]
+
+# Permite acessar arquivos PHP sem informar a extensão
+# Exemplo: /login carrega internamente /login.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+?)/?$ $1.php [L,QSA]

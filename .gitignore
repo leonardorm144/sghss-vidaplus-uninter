@@ -1,0 +1,27 @@
+# Configurações sensíveis
+config/db.php
+.env
+
+# Backups e dumps
+*.sql
+*.zip
+*.rar
+*.bak
+backup/
+backups/
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+
+# Pastas de IDE/editor
+.vscode/
+.idea/
+
+# Arquivos temporários PHP/sistema
+*.tmp
+*.cache
