@@ -3,7 +3,6 @@ config/db.php
 .env
 
 # Backups e dumps
-*.sql
 *.zip
 *.rar
 *.bak
