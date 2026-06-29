@@ -51,7 +51,7 @@ O sistema tem como objetivo centralizar processos administrativos, clínicos e h
 
 ## Sistema publicado
 
-https://sghssuninter.free.nf/login.php
+https://sghssuninter.free.nf/login
 
 ## Repositório
 
